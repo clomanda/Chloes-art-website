@@ -77,7 +77,7 @@ export function HeroSlider() {
       <div className="absolute bottom-5 left-0 right-0 z-10 flex justify-center gap-2">
         {slides.map((item, dot) => (
           <button
-            key={item.href}
+            key={item.title}
             type="button"
             aria-label={`Show slide ${dot + 1}: ${item.title}`}
             aria-current={dot === index}

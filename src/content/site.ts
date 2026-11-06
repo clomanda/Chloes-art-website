@@ -82,7 +82,7 @@ export const site = {
     shopKicker: "Shop now",
     shopHeading: "Shop the collection",
     shopText:
-      "Four groups of work, from one-off drawings to things that can be posted in an envelope.",
+      "Four groups of work, from limited edition prints to things that can be posted in an envelope.",
     learnKicker: "Classes",
     learnHeading: "Time in the studio",
     practiceKicker: "Studio practice",
@@ -106,10 +106,10 @@ export const site = {
   },
   slides: [
     {
-      title: "Original drawings",
-      text: "Finished coloured pencil drawings. The pictures here are a preview until higher-resolution files replace them.",
-      href: "/shop/originals",
-      cta: "Shop original drawings",
+      title: "Limited edition prints",
+      text: "Prints of finished coloured pencil drawings. The pictures here are a preview until higher-resolution files replace them.",
+      href: "/shop/prints",
+      cta: "Shop limited edition prints",
     },
     {
       title: "Print editions",
@@ -170,16 +170,16 @@ export const site = {
     {
       slug: "originals",
       title: "Original drawings",
-      summary: "Finished coloured pencil drawings, shown as a preview.",
-      image: "/artworks/01-dua-lipa-portrait.jpg",
-      alt: "Finished coloured pencil portrait of Dua Lipa with a snake on her cheek",
+      summary: "Original drawings are not listed yet.",
+      image: "",
+      alt: "",
     },
     {
       slug: "prints",
       title: "Limited edition prints",
-      summary: "Numbered runs taken from studio images. The count is on each piece.",
-      image: "",
-      alt: "",
+      summary: "Prints of finished coloured pencil drawings. Preview images and stand-in prices.",
+      image: "/artworks/01-dua-lipa-portrait.jpg",
+      alt: "Finished coloured pencil portrait of Dua Lipa with a snake on her cheek",
     },
     {
       slug: "cards",
@@ -200,7 +200,7 @@ export const site = {
     {
       slug: "dua-lipa",
       title: "Dua Lipa",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-110",
       available: true,
@@ -221,7 +221,7 @@ export const site = {
     {
       slug: "pink-hair",
       title: "Pink hair",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-111",
       available: true,
@@ -242,7 +242,7 @@ export const site = {
     {
       slug: "toy-story",
       title: "Toy Story",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-112",
       available: true,
@@ -266,7 +266,7 @@ export const site = {
     {
       slug: "cersei-lannister",
       title: "Cersei Lannister",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-113",
       available: true,
@@ -286,7 +286,7 @@ export const site = {
     {
       slug: "daenerys-targaryen",
       title: "Daenerys Targaryen",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-114",
       available: true,
@@ -310,7 +310,7 @@ export const site = {
     {
       slug: "nyane",
       title: "Nyane",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-115",
       available: true,
@@ -331,7 +331,7 @@ export const site = {
     {
       slug: "the-nun",
       title: "The Nun",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-116",
       available: true,
@@ -351,7 +351,7 @@ export const site = {
     {
       slug: "dua-lipa-profile",
       title: "Dua Lipa, profile",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-117",
       available: true,
@@ -372,7 +372,7 @@ export const site = {
     {
       slug: "strapless-portrait",
       title: "Strapless portrait",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-118",
       available: true,
@@ -391,7 +391,7 @@ export const site = {
     {
       slug: "braids-in-water",
       title: "Braids in water",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-119",
       available: true,
@@ -410,7 +410,7 @@ export const site = {
     {
       slug: "rapunzel-lanterns",
       title: "Rapunzel, lanterns",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-120",
       available: true,
@@ -429,7 +429,7 @@ export const site = {
     {
       slug: "melting-makeup",
       title: "Melting makeup",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-121",
       available: true,
@@ -448,7 +448,7 @@ export const site = {
     {
       slug: "rainbow-profile",
       title: "Rainbow profile",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-122",
       available: true,
@@ -467,7 +467,7 @@ export const site = {
     {
       slug: "rose-portrait",
       title: "Rose portrait",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-123",
       available: true,
@@ -486,7 +486,7 @@ export const site = {
     {
       slug: "pink-bubbles",
       title: "Pink bubbles",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-124",
       available: true,
@@ -505,7 +505,7 @@ export const site = {
     {
       slug: "green-jersey",
       title: "Green jersey",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-125",
       available: true,
@@ -524,7 +524,7 @@ export const site = {
     {
       slug: "denim-portrait",
       title: "Denim portrait",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-126",
       available: true,
@@ -543,7 +543,7 @@ export const site = {
     {
       slug: "flower-crown",
       title: "Flower crown",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-127",
       available: true,
@@ -562,7 +562,7 @@ export const site = {
     {
       slug: "pennywise",
       title: "Pennywise",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-128",
       available: true,
@@ -581,7 +581,7 @@ export const site = {
     {
       slug: "game-of-thrones",
       title: "Game of Thrones",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-129",
       available: true,
@@ -600,7 +600,7 @@ export const site = {
     {
       slug: "looking-down",
       title: "Looking down",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-130",
       available: true,
@@ -619,7 +619,7 @@ export const site = {
     {
       slug: "mandala-portrait",
       title: "Mandala portrait",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-131",
       available: true,
@@ -638,7 +638,7 @@ export const site = {
     {
       slug: "justin-bieber-guitar",
       title: "Justin Bieber, guitar",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-132",
       available: true,
@@ -657,7 +657,7 @@ export const site = {
     {
       slug: "hoodie-and-crown",
       title: "Hoodie and crown",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-133",
       available: true,
@@ -676,7 +676,7 @@ export const site = {
     {
       slug: "thirteen-reasons-why",
       title: "13 Reasons Why",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-134",
       available: true,
@@ -695,7 +695,7 @@ export const site = {
     {
       slug: "tiara",
       title: "Tiara",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-135",
       available: true,
@@ -714,7 +714,7 @@ export const site = {
     {
       slug: "ian-somerhalder",
       title: "Ian Somerhalder",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-136",
       available: true,
@@ -733,7 +733,7 @@ export const site = {
     {
       slug: "moana",
       title: "Moana",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-137",
       available: true,
@@ -752,7 +752,7 @@ export const site = {
     {
       slug: "beauty-and-the-beast",
       title: "Beauty and the Beast",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-138",
       available: true,
@@ -771,7 +771,7 @@ export const site = {
     {
       slug: "portrait-in-shadow",
       title: "Portrait in shadow",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-139",
       available: true,
@@ -790,7 +790,7 @@ export const site = {
     {
       slug: "bruno-mars",
       title: "Bruno Mars",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-140",
       available: true,
@@ -809,7 +809,7 @@ export const site = {
     {
       slug: "cosmic-portrait",
       title: "Cosmic portrait",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-141",
       available: true,
@@ -828,7 +828,7 @@ export const site = {
     {
       slug: "the-joker",
       title: "The Joker",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-142",
       available: true,
@@ -847,7 +847,7 @@ export const site = {
     {
       slug: "red-split-portrait",
       title: "Red split portrait",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-143",
       available: true,
@@ -866,7 +866,7 @@ export const site = {
     {
       slug: "smiling-portrait",
       title: "Smiling portrait",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-144",
       available: true,
@@ -885,7 +885,7 @@ export const site = {
     {
       slug: "double-portrait",
       title: "Double portrait",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-145",
       available: true,
@@ -904,7 +904,7 @@ export const site = {
     {
       slug: "jon-snow",
       title: "Jon Snow",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-146",
       available: true,
@@ -923,7 +923,7 @@ export const site = {
     {
       slug: "ariana-grande",
       title: "Ariana Grande",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-147",
       available: true,
@@ -942,7 +942,7 @@ export const site = {
     {
       slug: "the-kiss",
       title: "The kiss",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-148",
       available: true,
@@ -961,7 +961,7 @@ export const site = {
     {
       slug: "rapunzel-and-pascal",
       title: "Rapunzel and Pascal",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-149",
       available: true,
@@ -980,7 +980,7 @@ export const site = {
     {
       slug: "justin-bieber",
       title: "Justin Bieber",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-150",
       available: true,
@@ -999,7 +999,7 @@ export const site = {
     {
       slug: "rainbow-hair",
       title: "Rainbow hair",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-151",
       available: true,
@@ -1018,7 +1018,7 @@ export const site = {
     {
       slug: "conor-mcgregor",
       title: "Conor McGregor",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-152",
       available: true,
@@ -1037,7 +1037,7 @@ export const site = {
     {
       slug: "mayo-jersey",
       title: "Mayo jersey",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-153",
       available: true,
@@ -1056,7 +1056,7 @@ export const site = {
     {
       slug: "maleficent",
       title: "Maleficent",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-154",
       available: true,
@@ -1075,7 +1075,7 @@ export const site = {
     {
       slug: "iron-man",
       title: "Iron Man",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-155",
       available: true,
@@ -1094,7 +1094,7 @@ export const site = {
     {
       slug: "ed-sheeran",
       title: "Ed Sheeran",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-156",
       available: true,
@@ -1113,7 +1113,7 @@ export const site = {
     {
       slug: "taylor-swift",
       title: "Taylor Swift",
-      category: "originals",
+      category: "prints",
       price: 190,
       sku: "CH-157",
       available: true,
@@ -1132,7 +1132,7 @@ export const site = {
     {
       slug: "daenerys-graphite",
       title: "Daenerys Targaryen, graphite",
-      category: "originals",
+      category: "prints",
       price: 240,
       sku: "CH-158",
       available: true,
@@ -1151,7 +1151,7 @@ export const site = {
     {
       slug: "geometric-headpiece",
       title: "Geometric headpiece",
-      category: "originals",
+      category: "prints",
       price: 310,
       sku: "CH-159",
       available: true,
@@ -1170,7 +1170,7 @@ export const site = {
     {
       slug: "feather-headdress",
       title: "Feather headdress",
-      category: "originals",
+      category: "prints",
       price: 275,
       sku: "CH-160",
       available: true,
@@ -1185,61 +1185,6 @@ export const site = {
         { label: "Medium", value: "Graphite and coloured pencil" },
       ],
       tags: ["graphite and coloured pencil", "portrait"],
-    },
-    {
-      slug: "north-light-edition",
-      title: "North light, edition",
-      category: "prints",
-      price: 65,
-      sku: "CH-200",
-      available: true,
-      image: "",
-      alt: "",
-      summary: "A numbered print of the window picture. Edition of 40.",
-      description: [
-        "Sample print. Name the paper and whether it ships flat or rolled.",
-      ],
-      details: [
-        { label: "Edition", value: "40" },
-        { label: "Paper size", value: "30 × 40 cm" },
-      ],
-      tags: ["print", "edition"],
-    },
-    {
-      slug: "red-chair-study",
-      title: "Red chair, study",
-      category: "prints",
-      price: 48,
-      sku: "CH-201",
-      available: true,
-      image: "",
-      alt: "",
-      summary: "A smaller study of the red chair, on warm paper.",
-      description: [
-        "Sample print. Add the print method you use, such as giclée or lithograph.",
-      ],
-      details: [
-        { label: "Edition", value: "25" },
-        { label: "Paper size", value: "21 × 21 cm" },
-      ],
-      tags: ["print", "edition"],
-    },
-    {
-      slug: "after-rain-edition",
-      title: "After rain, edition",
-      category: "prints",
-      price: 65,
-      sku: "CH-202",
-      available: true,
-      image: "",
-      alt: "",
-      summary: "The wet-path image as a short edition.",
-      description: ["Sample print. Say if a frame is optional."],
-      details: [
-        { label: "Edition", value: "40" },
-        { label: "Paper size", value: "30 × 42 cm" },
-      ],
-      tags: ["print", "edition"],
     },
     {
       slug: "eight-folded-notes",
