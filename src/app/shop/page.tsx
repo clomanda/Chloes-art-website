@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArtworkFrame } from "@/components/ArtworkFrame";
 import { PageHero } from "@/components/PageHero";
-import { Placeholder } from "@/components/Placeholder";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = { title: "Shop" };
@@ -18,7 +18,11 @@ export default function ShopPage() {
           {site.categories.map((category) => (
             <li key={category.slug}>
               <Link href={`/shop/${category.slug}`} className="block">
-                <Placeholder className="aspect-[4/5] w-full" />
+                <ArtworkFrame
+                  src={category.image}
+                  alt={category.alt}
+                  className="aspect-[4/5] w-full"
+                />
                 <h3 className="mt-3 text-2xl text-navy">{category.title}</h3>
               </Link>
               <p className="mt-2 text-sm leading-6">{category.summary}</p>

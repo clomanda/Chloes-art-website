@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { formatPrice, getProduct, site } from "@/content/site";
+import { ArtworkFrame } from "@/components/ArtworkFrame";
 import { useCart } from "@/components/CartProvider";
-import { Placeholder } from "@/components/Placeholder";
 
 export function Basket() {
   const { lines, setQty, remove, ready } = useCart();
@@ -46,7 +46,12 @@ export function Basket() {
             key={product.slug}
             className="grid grid-cols-[96px_1fr] gap-4 py-6 sm:grid-cols-[120px_1fr_auto]"
           >
-            <Placeholder className="aspect-square w-full" />
+            <ArtworkFrame
+              src={product.image}
+              alt={product.alt}
+              className="aspect-square w-full"
+              sizes="120px"
+            />
             <div>
               <Link href={`/product/${product.slug}`} className="font-serif text-2xl text-navy">
                 {product.title}

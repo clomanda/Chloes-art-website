@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AddToCart } from "@/components/AddToCart";
-import { Placeholder } from "@/components/Placeholder";
+import { ArtworkFrame } from "@/components/ArtworkFrame";
 import { ProductCard } from "@/components/ProductCard";
 import {
   formatPrice,
@@ -64,7 +64,12 @@ export default async function ProductPage({ params }: PageProps) {
       </p>
 
       <div className="mt-8 grid items-start gap-10 md:grid-cols-2">
-        <Placeholder className="aspect-square w-full" />
+        <ArtworkFrame
+          src={product.image}
+          alt={product.alt}
+          className="aspect-square w-full"
+          sizes="(min-width: 768px) 36rem, 100vw"
+        />
         <div>
           <h1 className="text-5xl text-navy">{product.title}</h1>
           <p className="mt-4 text-2xl">{formatPrice(product.price)}</p>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArtworkFrame } from "@/components/ArtworkFrame";
 import { ChloePortrait } from "@/components/ChloePortrait";
 import { HeroSlider } from "@/components/HeroSlider";
 import { Placeholder } from "@/components/Placeholder";
@@ -37,7 +38,11 @@ export default function HomePage() {
             {site.categories.map((category) => (
               <li key={category.slug}>
                 <Link href={`/shop/${category.slug}`} className="block">
-                  <Placeholder className="aspect-[4/5] w-full" />
+                  <ArtworkFrame
+                    src={category.image}
+                    alt={category.alt}
+                    className="aspect-[4/5] w-full"
+                  />
                   <h3 className="mt-3 text-2xl text-navy">{category.title}</h3>
                 </Link>
                 <p className="mt-2 text-sm leading-6 text-ink/80">{category.summary}</p>
