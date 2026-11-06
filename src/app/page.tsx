@@ -52,28 +52,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 py-16 md:px-8 md:py-24">
-        <p className="text-xs uppercase tracking-[0.28em] text-pink">
-          {site.home.learnKicker}
-        </p>
-        <h2 className="mt-2 max-w-3xl text-5xl text-navy">{site.home.learnHeading}</h2>
-        <ul className="mt-10 grid grid-cols-2 gap-4 md:gap-6 lg:grid-cols-3">
-          {site.classes.map((offering) => (
-            <li key={offering.slug} className="min-w-0">
-              <Placeholder className="aspect-[4/5] w-full" />
-              <h3 className="mt-3 text-2xl text-navy">{offering.title}</h3>
-              <p className="mt-2 text-sm leading-6">{offering.summary}</p>
-              <Link
-                href="/classes"
-                className="mt-3 inline-block text-sm uppercase tracking-[0.16em] text-pink"
-              >
-                {site.ui.enquire}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
       <section className="bg-navy text-white">
         <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:px-8 md:py-24">
           <div>
