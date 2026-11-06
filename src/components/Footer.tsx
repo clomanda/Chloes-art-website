@@ -11,13 +11,9 @@ export function Footer() {
           <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
             {site.social.map((item) => (
               <li key={item.label}>
-                {item.href ? (
-                  <a href={item.href} className="underline decoration-pink underline-offset-4">
-                    {item.label}
-                  </a>
-                ) : (
-                  <span className="text-white/70">{item.label}</span>
-                )}
+                <a href={item.href} className="underline decoration-pink underline-offset-4">
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>
