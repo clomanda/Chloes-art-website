@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { AddToCart } from "@/components/AddToCart";
 import { ArtworkFrame } from "@/components/ArtworkFrame";
 import { ProductCard } from "@/components/ProductCard";
+import { ProductGallery } from "@/components/ProductGallery";
 import {
   formatPrice,
   getCategory,
@@ -64,12 +65,21 @@ export default async function ProductPage({ params }: PageProps) {
       </p>
 
       <div className="mt-8 grid items-start gap-10 md:grid-cols-2">
-        <ArtworkFrame
-          src={product.image}
-          alt={product.alt}
-          className="aspect-square w-full"
-          sizes="(min-width: 768px) 36rem, 100vw"
-        />
+        {"gallery" in product && product.gallery.length > 0 ? (
+          <ProductGallery
+            photos={[
+              { src: product.image, alt: product.alt },
+              ...product.gallery,
+            ]}
+          />
+        ) : (
+          <ArtworkFrame
+            src={product.image}
+            alt={product.alt}
+            className="aspect-square w-full"
+            sizes="(min-width: 768px) 36rem, 100vw"
+          />
+        )}
         <div>
           <h1 className="text-5xl text-navy">{product.title}</h1>
           <p className="mt-4 text-2xl">{formatPrice(product.price)}</p>

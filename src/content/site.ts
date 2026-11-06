@@ -104,12 +104,12 @@ export const site = {
   },
   slides: [
     {
-      title: "Prints",
-      text: "Prints of finished coloured pencil drawings. The pictures here are a preview until higher-resolution files replace them.",
-      href: "/shop/prints",
-      cta: "Shop prints",
-      image: "/artworks/03-toy-story-finished-drawing.jpg",
-      alt: "Finished coloured pencil drawing of Toy Story characters",
+      title: "Original drawings",
+      text: "Original drawings are not listed yet.",
+      href: "/shop/originals",
+      cta: "View original drawings",
+      image: "",
+      alt: "",
     },
     {
       title: "Prints",
@@ -129,11 +129,11 @@ export const site = {
     },
     {
       title: "Textiles",
-      text: "Handmade makeup bags and tote bags are on the way. Photos will be added when they are ready.",
+      text: "Handmade makeup bags and a toile tote bag are in the shop.",
       href: "/shop/textiles",
       cta: "View textiles",
-      image: "",
-      alt: "",
+      image: "/textiles/toile-tote-hanging-front.jpg",
+      alt: "Handmade blue-and-white toile tote bag hanging on a wall, with heart charms on the ties",
     },
   ],
   about: {
@@ -197,9 +197,9 @@ export const site = {
     {
       slug: "textiles",
       title: "Textiles",
-      summary: "Handmade makeup bags and tote bags. Photos will be added when they are ready.",
-      image: "",
-      alt: "",
+      summary: "Handmade makeup bags and a toile tote bag.",
+      image: "/textiles/toile-tote-hanging-front.jpg",
+      alt: "Handmade blue-and-white toile tote bag hanging on a wall, with heart charms on the ties",
     },
   ],
   products: [
@@ -1229,42 +1229,108 @@ export const site = {
       tags: ["paper", "gift"],
     },
     {
-      slug: "stripe-tea-towel",
-      title: "Stripe tea towel",
+      slug: "toile-tote-bag",
+      title: "Toile tote bag",
       category: "textiles",
-      price: 28,
-      sku: "CH-400",
+      price: 45,
+      sku: "CH-161",
       available: true,
-      image: "",
-      alt: "",
-      summary: "A linen towel with uneven studio stripes.",
+      image: "/textiles/toile-tote-hanging-front.jpg",
+      alt: "Handmade blue-and-white toile tote bag hanging on a wall, with heart charms on the ties",
+      summary:
+        "Handmade tote in a blue-and-white toile print of dogs and landscape, with a tie closure and heart charms.",
       description: [
-        "Sample textile. Add fibre content and washing instructions before you sell it.",
+        "A handmade tote with a blue-and-white toile print, a navy lining, and a tie closure finished with small heart charms. The sewn-in label reads Chloe's Creations.",
+        "The price is a stand-in. This bag is Chloe's own handmade work.",
       ],
-      details: [
-        { label: "Cloth", value: "Linen, sample spec" },
-        { label: "Size", value: "50 × 70 cm" },
+      details: [{ label: "Kind", value: "Handmade tote bag" }],
+      tags: ["handmade", "tote"],
+      gallery: [
+        {
+          src: "/textiles/toile-tote-beach.jpg",
+          alt: "The toile tote bag sitting on a sandy beach",
+        },
+        {
+          src: "/textiles/toile-tote-hanging-angle.jpg",
+          alt: "Angled view of the hanging toile tote bag",
+        },
+        {
+          src: "/textiles/toile-tote-label.jpg",
+          alt: "Close-up of the Chloe's Creations label and heart charms on the tote ties",
+        },
       ],
-      tags: ["linen", "home"],
     },
     {
-      slug: "square-cushion-cover",
-      title: "Square cushion cover",
+      slug: "toile-makeup-bag",
+      title: "Toile makeup bag",
       category: "textiles",
-      price: 42,
-      sku: "CH-401",
+      price: 28,
+      sku: "CH-162",
       available: true,
-      image: "",
-      alt: "",
-      summary: "A cover only. The pad is not included.",
+      image: "/textiles/toile-makeup-angle.jpg",
+      alt: "Quilted blue-and-white toile makeup bag on a white table, with lace along the zip",
+      summary:
+        "Handmade quilted makeup bag in a matching blue-and-white toile print, with lace along the zip.",
       description: [
-        "Sample home piece. Note the closure, such as a envelope back or a zip.",
+        "A handmade quilted makeup bag in the same blue-and-white toile print, with a blue zip and white lace along the opening.",
+        "The price is a stand-in. This bag is Chloe's own handmade work.",
       ],
-      details: [
-        { label: "Cloth", value: "Cotton, sample spec" },
-        { label: "Size", value: "45 × 45 cm" },
+      details: [{ label: "Kind", value: "Handmade makeup bag" }],
+      tags: ["handmade", "makeup bag"],
+      gallery: [
+        {
+          src: "/textiles/toile-makeup-with-label.jpg",
+          alt: "Toile makeup bag showing the Chloe's Creations label",
+        },
+        {
+          src: "/textiles/toile-makeup-three-quarter.jpg",
+          alt: "Three-quarter view of the quilted toile makeup bag",
+        },
+        {
+          src: "/textiles/toile-makeup-side-charm.jpg",
+          alt: "Side view of the toile makeup bag with the zip charm",
+        },
+        {
+          src: "/textiles/toile-makeup-top.jpg",
+          alt: "Top-down view of the toile makeup bag",
+        },
       ],
-      tags: ["cotton", "home"],
+    },
+    {
+      slug: "scottie-makeup-bag",
+      title: "Scottie makeup bag",
+      category: "textiles",
+      price: 28,
+      sku: "CH-163",
+      available: true,
+      image: "/textiles/scottie-makeup-styled.jpg",
+      alt: "Handmade cream makeup bag printed with small dogs and red and yellow dots, with a blue bow and a Chloe's Creations label",
+      summary:
+        "Handmade makeup bag in cream fabric printed with small dogs and red and yellow dots, finished with a blue bow.",
+      description: [
+        "A handmade makeup bag printed with small white dogs and red and yellow dots, finished with a blue satin bow. The sewn-in label reads Chloe's Creations.",
+        "The price is a stand-in. This bag is Chloe's own handmade work.",
+      ],
+      details: [{ label: "Kind", value: "Handmade makeup bag" }],
+      tags: ["handmade", "makeup bag"],
+      gallery: [
+        {
+          src: "/textiles/scottie-makeup-angle.jpg",
+          alt: "Angled view of the Scottie makeup bag",
+        },
+        {
+          src: "/textiles/scottie-makeup-angle-2.jpg",
+          alt: "Another angled view of the Scottie makeup bag",
+        },
+        {
+          src: "/textiles/scottie-makeup-zipper.jpg",
+          alt: "Close-up of the Scottie makeup bag zip and charm",
+        },
+        {
+          src: "/textiles/scottie-makeup-fabric.jpg",
+          alt: "Close-up of the dog-and-dot print on the Scottie makeup bag",
+        },
+      ],
     },
   ],
   news: [
