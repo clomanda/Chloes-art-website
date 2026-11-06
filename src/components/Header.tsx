@@ -44,7 +44,7 @@ export function Header() {
               {site.name}
             </span>
             <span className="block text-[10px] uppercase tracking-[0.35em] text-white/75">
-              Art
+              Artwork
             </span>
           </Link>
 

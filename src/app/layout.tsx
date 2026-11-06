@@ -22,7 +22,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: {
     default: site.title,
-    template: "%s · Chloe",
+    template: `%s · ${site.title}`,
   },
   description: site.description,
 };

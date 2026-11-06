@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ChloePortrait } from "@/components/ChloePortrait";
 import { PageHero } from "@/components/PageHero";
 import { Placeholder } from "@/components/Placeholder";
 import { site } from "@/content/site";
@@ -12,7 +13,7 @@ export default function AboutPage() {
       <PageHero title="About Me" ctaLabel="Read the story" />
       <div id="page-content" className="mx-auto w-full max-w-6xl px-4 py-16 md:px-8 md:py-24">
         <div className="grid items-center gap-10 md:grid-cols-2">
-          <Placeholder className="aspect-[4/5] w-full" />
+          <ChloePortrait className="aspect-[4/5] w-full" />
           <div>
             <h2 className="text-5xl text-navy">{site.about.heading}</h2>
             <div className="mt-6 space-y-4 leading-7">

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ChloePortrait } from "@/components/ChloePortrait";
 import { HeroSlider } from "@/components/HeroSlider";
 import { Placeholder } from "@/components/Placeholder";
 import { site } from "@/content/site";
@@ -9,7 +10,7 @@ export default function HomePage() {
       <HeroSlider />
 
       <section className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:px-8 md:py-24">
-        <Placeholder className="aspect-[4/5] w-full" />
+        <ChloePortrait className="aspect-[4/5] w-full" />
         <div>
           <p className="text-xs uppercase tracking-[0.28em] text-pink">
             {site.home.aboutKicker}

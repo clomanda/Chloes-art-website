@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t-4 border-pink bg-navy text-white">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-x-6 gap-y-10 px-4 py-12 md:px-8 lg:grid-cols-4">
         <div className="col-span-2 lg:col-span-1">
-          <p className="font-serif text-4xl italic">{site.name}</p>
+          <p className="font-serif text-4xl italic leading-none">{site.title}</p>
           <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
             {site.social.map((item) => (
               <li key={item.label}>
@@ -67,7 +67,7 @@ export function Footer() {
         </div>
       </div>
       <p className="px-4 pb-24 text-center text-sm text-white/75">
-        {site.year} {site.name}. Replace this line when the site is yours.
+        {site.year} {site.title}. Replace this line when the site is yours.
       </p>
     </footer>
   );

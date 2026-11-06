@@ -1,4 +1,4 @@
-# Chloe Art
+# Chloe Meehan Artwork
 
 A Next.js studio website template. Copy, prices, class notes, and policies live in [`src/content/site.ts`](src/content/site.ts). Picture areas are empty frames labelled “Your image” until you replace them.
 

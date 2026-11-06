@@ -4,8 +4,8 @@
  */
 
 export const site = {
-  name: "Chloe",
-  title: "Chloe Art",
+  name: "Chloe Meehan",
+  title: "Chloe Meehan Artwork",
   description:
     "Studio website template for Chloe: paintings, prints, classes, and news. Swap the sample copy for your own.",
   year: 2026,
@@ -26,7 +26,7 @@ export const site = {
     email: "hello@example.com",
   },
   social: [
-    { label: "Instagram", href: "" },
+    { label: "Instagram", href: "https://www.instagram.com/chloemehanart/" },
     { label: "Facebook", href: "" },
     { label: "Pinterest", href: "" },
   ],
