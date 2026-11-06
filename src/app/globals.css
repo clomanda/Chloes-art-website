@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #162b4d;
+  --pink: #f0759b;
+  --paper: #ffffff;
+  --ink: #1c2430;
+  --frame: #d9d3cb;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-pink: var(--pink);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-frame: var(--frame);
+  --font-sans: var(--font-outfit), sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 3px;
+}
