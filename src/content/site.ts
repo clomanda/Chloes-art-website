@@ -20,15 +20,13 @@ export const site = {
     { href: "/contact", label: "Contact" },
   ],
   contact: {
-    address: ["Your studio address", "Your city"],
-    hours: "Add your opening hours",
-    phone: "Add your phone number",
-    email: "hello@example.com",
+    address: ["Dingle, County Kerry, Ireland"],
+    hours: "Monday to Friday, 9am to 5pm",
+    email: "chloemeehan1@live.com",
   },
   social: [
     { label: "Instagram", href: "https://www.instagram.com/chloemehanart/" },
     { label: "Facebook", href: "https://www.facebook.com/chloemeehanart/" },
-    { label: "Pinterest", href: "" },
   ],
   footerLinks: [
     { href: "/policies/stockists", label: "Become a stockist" },

@@ -34,7 +34,6 @@ export function Footer() {
               ))}
             </p>
             <p>{site.contact.hours}</p>
-            <p>{site.contact.phone}</p>
             <p>
               <a href={`mailto:${site.contact.email}`} className="underline decoration-pink underline-offset-4">
                 {site.contact.email}

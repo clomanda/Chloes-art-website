@@ -24,7 +24,6 @@ export default function ContactPage() {
               ))}
             </p>
             <p>{site.contact.hours}</p>
-            <p>{site.contact.phone}</p>
             <p>
               <a className="underline decoration-pink underline-offset-4" href={`mailto:${site.contact.email}`}>
                 {site.contact.email}
