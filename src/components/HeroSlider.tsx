@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { site } from "@/content/site";
@@ -20,11 +21,25 @@ export function HeroSlider() {
       aria-roledescription="carousel"
       aria-label="Studio highlights"
     >
+      {slide.image ? (
+        <Image
+          src={slide.image}
+          alt={slide.alt}
+          fill
+          priority={index === 0}
+          sizes="100vw"
+          className="object-cover"
+        />
+      ) : null}
       <div className="absolute inset-0 bg-navy/55" />
-      <span className="pointer-events-none absolute inset-4 z-10 border border-dashed border-white/45" />
-      <span className="absolute bottom-5 left-4 z-10 text-[11px] uppercase tracking-[0.22em] text-white/80">
-        {site.imageLabel}
-      </span>
+      {slide.image ? null : (
+        <>
+          <span className="pointer-events-none absolute inset-4 z-10 border border-dashed border-white/45" />
+          <span className="absolute bottom-5 left-4 z-10 text-[11px] uppercase tracking-[0.22em] text-white/80">
+            {site.imageLabel}
+          </span>
+        </>
+      )}
 
       <div className="relative z-10 flex max-w-3xl flex-col items-center px-6 text-center text-white">
         <p className="text-xs uppercase tracking-[0.28em] text-white/80">
