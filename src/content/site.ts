@@ -374,25 +374,6 @@ export const site = {
       tags: ["coloured pencil", "portrait"],
     },
     {
-      slug: "strapless-portrait",
-      title: "Strapless portrait",
-      category: "prints",
-      price: 25,
-      sku: "CH-118",
-      available: true,
-      image: "/artworks/09-bw-strapless-portrait.jpg",
-      alt: "Graphite portrait of a woman in a strapless top",
-      summary: "Finished graphite portrait.",
-      description: [
-        "Finished graphite portrait.",
-        "Preview image from Chloe's gallery. A higher-resolution file can replace it later. The price is a stand-in and does not mean this drawing is official merchandise or currently for sale.",
-      ],
-      details: [
-        { label: "Medium", value: "Graphite" },
-      ],
-      tags: ["graphite", "portrait"],
-    },
-    {
       slug: "braids-in-water",
       title: "Braids in water",
       category: "prints",
