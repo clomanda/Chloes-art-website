@@ -469,25 +469,6 @@ export const site = {
       tags: ["graphite", "portrait"],
     },
     {
-      slug: "pink-bubbles",
-      title: "Pink bubbles",
-      category: "prints",
-      price: 25,
-      sku: "CH-124",
-      available: true,
-      image: "/artworks/15-pink-bubbles-portrait.jpg",
-      alt: "Coloured pencil portrait of a woman with dark hair and pink bubbles",
-      summary: "Finished coloured pencil portrait.",
-      description: [
-        "Finished coloured pencil portrait.",
-        "Preview image from Chloe's gallery. A higher-resolution file can replace it later. The price is a stand-in and does not mean this drawing is official merchandise or currently for sale.",
-      ],
-      details: [
-        { label: "Medium", value: "Coloured pencil" },
-      ],
-      tags: ["coloured pencil", "portrait"],
-    },
-    {
       slug: "green-jersey",
       title: "Green jersey",
       category: "prints",
