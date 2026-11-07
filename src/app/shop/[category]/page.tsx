@@ -30,7 +30,12 @@ export default async function CategoryPage({ params }: PageProps) {
 
   return (
     <>
-      <PageHero title={category.title} ctaLabel={`View ${category.title}`} />
+      <PageHero
+        title={category.title}
+        ctaLabel={`View ${category.title}`}
+        image={category.image}
+        alt={category.alt}
+      />
       <div id="page-content" className="mx-auto w-full max-w-6xl px-4 py-16 md:px-8 md:py-24">
         <p className="max-w-2xl leading-7">{category.summary}</p>
         <p className="mt-3 max-w-2xl text-sm leading-6 text-ink/70">{site.ui.sampleShopNote}</p>
